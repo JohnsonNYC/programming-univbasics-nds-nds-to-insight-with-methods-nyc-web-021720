@@ -8,8 +8,9 @@ pp directors_database[0][:movies][0][:worldwide_gross]
 
 def gross_for_director(director_data)
   index = 0 
+  total = 0 
   while index < director_data[:movies].length do 
-    
+    total += director_data[:movies]
 end
 
 # Write a method that, given an NDS creates a new Hash
