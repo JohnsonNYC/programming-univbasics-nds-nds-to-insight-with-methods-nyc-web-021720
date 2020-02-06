@@ -19,7 +19,7 @@ total = 0
     end 
     first_index += 1 
   end 
-  total 
+   p total 
 end
 
 # Write a method that, given an NDS creates a new Hash
