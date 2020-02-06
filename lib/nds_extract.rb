@@ -14,7 +14,6 @@ total = 0
   while first_index < director_data.length do 
     second_index = 0 
     while second_index < director_data[first_index].length
-      director_data[first_index][:movies][second_index][:worldwide_gross]
       total += director_data[first_index][:movies][second_index][:worldwide_gross]
       second_index += 1 
     end 
