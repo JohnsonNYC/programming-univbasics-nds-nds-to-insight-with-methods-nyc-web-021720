@@ -11,9 +11,9 @@ def gross_for_director(director_data)
 first_index = 0 
 total = 0 
   
-  while first_index < director_data.length do 
+  while first_index < director_data.size do 
     second_index = 0 
-    while second_index < director_data[first_index].length
+    while second_index < director_data[first_index].size
       total += director_data[first_index][:movies][second_index][:worldwide_gross]
       second_index += 1 
     end 
