@@ -8,7 +8,7 @@ pp directors_database[0][:movies][0][:worldwide_gross]
 
 def gross_for_director(director_data)
   index = 0 
-  while index < director_data.length do 
+  while index < director_data[:movies].length do 
     
 end
 
